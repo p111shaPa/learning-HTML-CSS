@@ -1,0 +1,262 @@
+<!doctype html>
+<!--
+<html>
+    <head> <!--заголовок и др
+        <meta charset="utf-8">
+        <meta name="author" content="p111shaPa">
+        <meta name="description" content="Изучение HTML">
+        <meta name="keywords" content="изучение, html">
+
+        <title> Тайтл </title> <!--как называется окно\вкладка-->
+    </head>
+    <body> <!--основной код страницы
+        <h1>Заголовок H1</h1>
+        <h2>Заголовок H2 <big>p111shaPa</big></h2>
+        <p>H<sub>2</sub>O, и <br> a<sup>2</sup></p><hr> <!--горизонтальная линия
+        <p><b>жирный</b></p>
+        <p><i>италик</i></p>
+        <p><strike>перечеркнутый</strike></p>
+
+        <abbr title="HiperText Markup Language"> HTML </abbr> <br>
+        <address> City, Country (address) </address>
+
+        <pre>function some() {
+        return "Some"
+}</pre>
+        <code>const age=30;</code>
+    </body>
+</html>
+
+<html>
+    <head>
+
+    </head>
+    <body>
+        <ol start="1" type="i">
+            <li>купить молоко</li>
+            <li>купить картошку</li>
+            <li>купить лимон</li>
+            <li>купить соль</li>
+        </ol>
+
+        <ol start="1" type="a">
+            <li>купить молоко</li>
+            <li>купить картошку</li>
+            <li>купить <b>лимон</b></li>
+            <li>купить соль</li>
+        </ol>
+
+        <ul type="circle">
+            <li>купить молоко</li>
+            <li>купить картошку</li>
+            <li>купить лимон</li>
+            <li>купить соль</li>
+        </ul>
+    </body>
+</html>
+
+<html>
+    <head>
+
+    </head>
+    <body>
+        <a href="#pageDown">Кнопка вниз</a>
+        <p title="подсказка для текста">некоторый текст</p>
+        <a href="https://translate.google.com/?hl=ru&sl=en&tl=ru&op=translate"
+            title="google translate"
+            target="_blank"> перейти сайт-переводчик</a>
+        <p><a href="2file.html" title="моя страница">Перейти на вторую страницу</a></p>
+
+        <a href="mailto:test@ya.ru" title="Перебросит в ваш почтовый клиент">Написать на почту</a>
+        <a name="pageDown"></a>
+    </body>
+</html>
+
+<html>
+    <head>
+
+    </head>
+    <body>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/0d/Africa_and_Europe_from_a_Million_Miles_Away.png"
+        width="50%" title="Земля из космоса" alt="не подгрузилась картинка">
+        <img src="Image/1.jpg" width="50%" title="Солнце в мороз" alt="Солнце в мороз">
+    </body>
+</html>
+
+<html>
+    <head>
+
+    </head>
+    <body>
+        <table border="2" width="500">
+            <thead>
+                <tr>
+                    <th>Имя</th>
+                    <th>Фамилия</th>
+                    <th>Год рождения</th>
+                </tr>
+            </thead>
+            <tbody align="center">
+                <tr>
+                    <td>Павел</td>
+                    <td>Фамилия</td>
+                    <td>1991</td>
+                </tr>
+                <tr>
+                    <td>Павел 2</td>
+                    <td>Фамилия 2</td>
+                    <td>1991</td>
+                </tr>
+                <tr>
+                    <td>Павел 3</td>
+                    <td>Фамилия 3</td>
+                    <td>1991</td>
+                </tr>
+                <tr>
+                    <td>Павел 4</td>
+                    <td>Фамилия 4</td>
+                    <td>1991</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Павел</td>
+                    <td>Фамилия</td>
+                </tr>
+            </tfoot>
+        </table>
+    </body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Подключение файлов</title>
+    <link rel="stylesheet" hred="css/emptyfile.css">
+</head>
+<body>
+    <script src="js/emptyfile.js">
+
+    </script> надо прописывать в body
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <div>Просто текст</div>
+    <div>Просто текст</div>
+    <span>Просто текст</span>
+    <span>Просто текст</span>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <form action="" method="post">
+        <label>Введите имя</label>
+        <input type="text" >
+
+    </form>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <form >
+      <label for="login">Введите логин</label>
+      <input type="text" size="50" value="Павел" maxlength="15" placeholder="введите логин" name="loginField" id="login">
+       <br><br><label for="email">Введите email</label>
+       <input type="email" id="email">
+       <br><br><label for="url">Введите URL</label>
+       <input type="url" id="url">
+       <br><br><label for="passw">Введите пароль</label>
+       <input type="password" id="passw">
+       <br><br><label for="date">Выбор даты</label>
+       <input type="datetime-local" id="date">
+       <br><br><label for="chkbx">Поставить галочку</label>
+       <input type="checkbox" id="chkbx">
+       <br><br><label for="rdb">сделать выбор</label>
+       <input type="radio" id="rdb" name="rdbN" checked>
+       <input type="radio" id="rdb" name="rdbN" >
+       <br><br><input type="file"></input>
+       <br><br><input type="submit" value="нажать">
+       <br><br><input type="reset" value="Сбросить">
+    </form>
+  </body>
+</html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <form>
+    <textarea placeholder="введите что-то" maxlength="30"
+    style="width:300px; height: 150px;">Уже какой-то текст</textarea>
+    <textarea placeholder="введите что-то2" maxlength="10"
+      rows="10" cols="30">уже какой-то текст</textarea>
+    <textarea style="width:50%; max-width: 900px"></textarea>
+    <br><br>
+    <button type="reset">Сброс</button>
+    </form>
+
+  </body>
+</html>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <form>
+      <select multiple size="2">
+          <option disabled selected>Выберите вариант</option>
+          <option>Выбор 1</option>
+          <option>Выбор 2</option>
+          <option>Выбор 3</option>
+      </select>
+    </form>
+  </body>
+</html>-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <header>Шапка</header>
+    <main>Основная часть сайта</main>
+    <aside>Для боковой части сайта</aside>
+    <footer>Футер</footer>
+
+    <progress max="100" value="55"></progress>
+
+    <details>
+        <summary>Подробнее</summary>
+        Разный текст
+    </details>
+
+  </body>
+</html>
