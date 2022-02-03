@@ -2,26 +2,128 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="author" content="Pavel">
+    <meta name="description" content="resume">
+    <meta name="keywords" content="резюме, удаленная работа">
+    
     <title>Краткое резюме</title>
     <link href="image/121_favicon.png" rel="icon">
   </head>
   <body>
-    <h1>Краткое резюме:</h1>
+    <h2 title="это страница для обучения HTML и CSS">Краткое резюме:</h2>
     <table cellspacing="20"> <!-- потом атрибут возможно убрать -->
       <thead>
         <tr>
             <td>
-              <img src="Image/121.jpeg" alt="здесь должно быть фото" width="250">
+              <img src="Image/121.jpeg" alt="здесь должно быть фото" width="250" title="фото">
             </td>
             <td>
-              <h2> Павел Цыпандин </h2>
+              <h1> Павел Цыпандин </h1>
               <p><i> Мужчина, 30 лет </i></p>
-              <p><em<> интересна удаленная работа </em></p>
+              <p><em> <b>Опыт в технической поддержке и другое</b> </em></p>
             </td>
         </tr>
     </table>
+
     <hr>
 
+    <br>
+    <h2>Ссылки</h2>
+      <ul>
+        <li title="можно нажать">
+          <a href="https://github.com/p111shaPa/learning-HTML-CSS" target="_blank">
+            Git, ветка learning-HTML-CSS
+          </a>
+        </li>
+        <li title="можно нажать">
+            <a href="2file.html" target="_blank">
+                Открытие др.локальной страницы
+            </a>
+        </li>
+      </ul>
+    <hr>
+    <h2>Опыт работы</h2>
+      <table>
+      <thead>
+        <tr>
+          <th><i>место (начиная с последнего)</i></th>
+          <th><i>должность</i></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>ООО "...... ...."</td>
+          <td>Оператор технической поддержки</td>
+        </tr>
+        <tr>
+          <td>онлайн-школа английского языка</td>
+          <td>Специалист технической поддержки (1л, потом ВУ)</td>
+        </tr>
+        <tr>
+            <td>"Хэндз"</td>
+            <td>Cубподряд, клининг банкоматов, не сложная настройка установка POS-терминалов</td>
+        </tr>
+        <tr>
+            <td>Почта России</td>
+            <td>Инженер программист 1 категории (как сисадмин)</td>
+        </tr>
+        <tr>
+            <td>Связной</td>
+            <td>менеджер по продажам</td>
+        </tr>
+        <tr>
+            <td>И др.</td>
+
+        </tr>
+      </tbody>
+      </table>
+      <hr>
+
+    <h2>Увлечения</h2>
+      <table>
+        <tbody>
+            <ul type="circle">
+                <li>Езда на велосипеде</li>
+                <li>Игра на фортепиано</li>
+                <li>Путешествия</li>
+            </ul>
+        </tbody>
+
+      </table>
+    <hr>
+
+    <h2>Связаться со мной (не реализовано)</h2>
+      <form>
+        <label for="yourName" title="Введите имя">Ваше имя</label>
+        <input type="text" maxlength="15" id="yourName" placeholder="Введите ваше имя" title="Введите имя">
+
+        <br>
+
+        <label for="yourEmail" title="Введите email">Ваш Email</label>
+        <input type="email" id="yourEmail" placeholder="Введите вашу почту" title="Введите email">
+
+        <br>
+
+        <input type="radio" name="work" checked>По работе</input>
+        <input type="radio" name="work">Другое</input>
+
+        <br>
+
+        <label for="yourMsg" title="Введите сообщение">Ваше сообщение</label>
+        <br>
+        <textarea title="Введите сообщение" rows="3" placeholder="Введите..." id="yourMsg"></textarea>
+
+        <br>
+
+        <button type="submit">Отправить</button>
+      </form>
+
+      <br>
+
+      <details>
+        <summary>Еще вариант связи (указан неверный email)</summary>
+        <a href="mailto:test@ya.ru" title="Перекинет на ваш почтовый клиент">Написать на почту</a>
+      </details>
 
   </body>
 </html>
