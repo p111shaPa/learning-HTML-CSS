@@ -12,112 +12,128 @@
 
   </head>
   <body>
-    <h2 title="это страница для обучения HTML и CSS">Краткое резюме:</h2>
-    <div class="block1">
-      <img src="Image/121.jpeg" alt="здесь должно быть фото" title="фото" class="img121" id="img121">
-      <h1> Павел Цыпандин </h1>
-      <p>Мужчина, 30 лет</p>
-      <p id="exp1">Опыт в технической поддержке и другое</p>
-    </div>
-    <hr>
+    <div class="container">
+      <h2 title="это страница для обучения HTML и CSS">Краткое резюме:</h2>
+      <div class="block1">
+        <img src="Image/121.jpeg" alt="здесь должно быть фото" title="фото" class="img121" id="img121">
+        <h1> Павел Цыпандин </h1>
+        <p>Мужчина, 30 лет</p>
+        <p id="expInTs">Опыт в технической поддержке и другое</p>
 
-    <br>
-    <h2>Ссылки</h2>
-      <ul>
-        <li title="можно нажать">
-          <a href="https://github.com/p111shaPa/learning-HTML-CSS" target="_blank">
-            Git, ветка learning-HTML-CSS
-          </a>
-        </li>
-        <li title="можно нажать">
-            <a href="2file.html" target="_blank">
-                Открытие др.локальной страницы
-            </a>
-        </li>
-      </ul>
-    <hr>
-    <h2>Опыт работы</h2>
-      <table>
-      <thead>
-        <tr>
-          <th><i>место (начиная с последнего)</i></th>
-          <th><i>должность</i></th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>ООО "...... ...."</td>
-          <td>Оператор технической поддержки</td>
-        </tr>
-        <tr>
-          <td>онлайн-школа английского языка</td>
-          <td>Специалист технической поддержки (1л, потом ВУ)</td>
-        </tr>
-        <tr>
-            <td>"Хэндз"</td>
-            <td>Cубподряд, клининг банкоматов, не сложная настройка установка POS-терминалов</td>
-        </tr>
-        <tr>
-            <td>Почта России</td>
-            <td>Инженер программист 1 категории (как сисадмин)</td>
-        </tr>
-        <tr>
-            <td>Связной</td>
-            <td>менеджер по продажам</td>
-        </tr>
-        <tr>
-            <td>И др.</td>
+      <h4>Ссылки:</h4>
+        <a href="https://github.com/p111shaPa/learning-HTML-CSS" target="_blank" title="можно нажать">
+                            Git, ветка learning-HTML-CSS
+        </a>
+        &nbsp|
+        <a href="2file.html" target="_blank" title="можно нажать">
+                      Открытие др. страницы (локальной)
+        </a>
+      </div>
 
-        </tr>
-      </tbody>
-      </table>
+
+
+      <div class="card bg-Lavender">
+        <h2>Опыт работы</h2>
+          <table>
+          <thead>
+            <tr>
+              <th><i>место (начиная с последнего)</i></th>
+              <th><i>должность</i></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>ООО "...... ...."</td>
+              <td>Оператор технической поддержки</td>
+            </tr>
+            <tr>
+              <td>онлайн-школа английского языка</td>
+              <td>Специалист технической поддержки (1л, потом ВУ)</td>
+            </tr>
+            <tr>
+                <td>"Хэндз"</td>
+                <td>Cубподряд, клининг банкоматов, не сложная настройка установка POS-терминалов</td>
+            </tr>
+            <tr>
+                <td>Почта России</td>
+                <td>Инженер программист 1 категории (как сисадмин)</td>
+            </tr>
+            <tr>
+                <td>Связной</td>
+                <td>менеджер по продажам</td>
+            </tr>
+            <tr>
+                <td>И др.</td>
+
+            </tr>
+          </tbody>
+          </table>
+        </div>
+        <hr> <!-- поправить отступы -->
+
+
+        <div class="card bg-FloralWhite">
+          <h2>Увлечения</h2>
+            <table>
+              <tbody>
+                  <ul type="circle">
+                      <li>Езда на велосипеде</li>
+                      <li>Игра на фортепиано</li>
+                      <li>Путешествия</li>
+                  </ul>
+              </tbody>
+
+            </table>
+        </div>
       <hr>
 
-    <h2>Увлечения</h2>
-      <table>
-        <tbody>
-            <ul type="circle">
-                <li>Езда на велосипеде</li>
-                <li>Игра на фортепиано</li>
-                <li>Путешествия</li>
-            </ul>
-        </tbody>
+      <div class="card bg-C7FFD6">
+        <h2>Связаться со мной (не реализовано)</h2>
+          <form>
+            <label for="yourName" title="Введите имя">Ваше имя</label>
+            <input type="text" maxlength="15" id="yourName" placeholder="Введите ваше имя" title="Введите имя">
 
-      </table>
-    <hr>
+            <br>
 
-    <h2>Связаться со мной (не реализовано)</h2>
-      <form>
-        <label for="yourName" title="Введите имя">Ваше имя</label>
-        <input type="text" maxlength="15" id="yourName" placeholder="Введите ваше имя" title="Введите имя">
+            <label for="yourEmail" title="Введите email">Ваш Email</label>
+            <input type="email" id="yourEmail" placeholder="Введите вашу почту" title="Введите email">
+
+            <br>
+            <label for="work">По работе</label>
+            <input type="radio" name="work" id="work" checked></input>
+            <label for="work2">Другое</label>
+            <input type="radio" name="work" id="work2"></input>
+
+            <br>
+
+            <label for="yourMsg" title="Введите сообщение">Ваше сообщение</label>
+            <br>
+            <textarea title="Введите сообщение" rows="3" placeholder="Введите..." id="yourMsg"></textarea>
+
+            <br>
+
+            <button type="submit">Отправить</button>
+          </form>
+        </div>
+        <!-- <div class="box-model">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+
+        <div style="margin-bottom: 500px;">
+        </div> -->
 
         <br>
 
-        <label for="yourEmail" title="Введите email">Ваш Email</label>
-        <input type="email" id="yourEmail" placeholder="Введите вашу почту" title="Введите email">
+        <div class="card">
+        <details>
+          <summary>Еще вариант связи (указан неверный email)</summary>
+          <a href="mailto:test@ya.ru" title="Перекинет на ваш почтовый клиент">Написать на почту</a>
+        </details>
+      </div>
 
-        <br>
-
-        <input type="radio" name="work" checked>По работе</input>
-        <input type="radio" name="work">Другое</input>
-
-        <br>
-
-        <label for="yourMsg" title="Введите сообщение">Ваше сообщение</label>
-        <br>
-        <textarea title="Введите сообщение" rows="3" placeholder="Введите..." id="yourMsg"></textarea>
-
-        <br>
-
-        <button type="submit">Отправить</button>
-      </form>
-
-      <br>
-
-      <details>
-        <summary>Еще вариант связи (указан неверный email)</summary>
-        <a href="mailto:test@ya.ru" title="Перекинет на ваш почтовый клиент">Написать на почту</a>
-      </details>
-
+    </div>
   </body>
 </html>

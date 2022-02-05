@@ -11,16 +11,34 @@ body {
   font-family: 'Roboto', 'Calibri'; */
 }
 
+.container {
+  max-width: 80%;
+  margin: auto;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: green;
+}
+
+/* a:visited {
+  color: gray;
+}*/
+
 .img121 {
   width: 250px;
   border-radius: 27px;
   box-shadow: 6px 8px 20px 0px rgba(0, 0, 0, 0.5);
 
 }
-/* #img121 {
-  width: 250px;
-  border-radius: 28px;
-}*/
 
 .block1 p {
   color: #4F5358;
@@ -32,6 +50,54 @@ body {
   /* word-spacing: 20px; */
 }
 
-#exp1 {
-  font-weight: bold;
+.block1 {
+  margin-bottom: 20px;
 }
+
+#expInTs {
+  font-weight: bold;
+
+}
+
+.card {
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+.bg-FloralWhite {
+  background: #FFFAF0
+}
+
+.bg-Lavender {
+  background: #E6E6FA
+}
+
+.bg-C7FFD6 {
+  background: #C7FFD6
+}
+
+
+/* Box model */
+
+/* .links {
+  background: green;
+  /* padding: 10px; */
+  /* padding: 10px 20px 30px 40px;
+  border: 2px solid darkgray;
+  border-bottom-style: dashed;
+  border-top-width: 3px;
+  border-right-color: #000;
+  margin: 10px;
+} */
+
+
+
+/* .box-model >  div { /* > только дочерние будут применять стили
+  float: left;
+  background: #000;
+  height: 200px;
+  width: 25%;
+  border: 5px solid green;
+  box-sizing: border-box;
+} */
