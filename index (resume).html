@@ -15,7 +15,7 @@
     <div class="container">
       <h2 title="это страница для обучения HTML и CSS">Краткое резюме:</h2>
       <div class="block1">
-        <img src="Image/121.jpeg" alt="здесь должно быть фото" title="фото" class="img121" id="img121">
+        <img src="Image/121.jpeg" alt="здесь должно быть фото" title="фото" class="photos" id="img121">
         <h1> Павел Цыпандин </h1>
         <p>Мужчина, 30 лет</p>
         <p id="expInTs">Опыт в технической поддержке и другое</p>
@@ -34,7 +34,7 @@
 
       <div class="card bg-Lavender">
         <h2>Опыт работы</h2>
-          <table>
+          <table class="exp">
           <thead>
             <tr>
               <th><i>место (начиная с последнего)</i></th>
@@ -64,53 +64,54 @@
             </tr>
             <tr>
                 <td>И др.</td>
-
             </tr>
           </tbody>
           </table>
         </div>
-        <hr> <!-- поправить отступы -->
+        <hr>
 
 
         <div class="card bg-FloralWhite">
           <h2>Увлечения</h2>
             <table>
               <tbody>
-                  <ul type="circle">
+                  <ul class="hobby" type="circle">
                       <li>Езда на велосипеде</li>
                       <li>Игра на фортепиано</li>
                       <li>Путешествия</li>
                   </ul>
               </tbody>
-
             </table>
         </div>
       <hr>
 
-      <div class="card bg-C7FFD6">
+      <div class="card bg-C7FFD6 contact">
         <h2>Связаться со мной (не реализовано)</h2>
           <form>
-            <label for="yourName" title="Введите имя">Ваше имя</label>
-            <input type="text" maxlength="15" id="yourName" placeholder="Введите ваше имя" title="Введите имя">
 
-            <br>
+            <div>
+              <label for="yourName" title="Введите имя">Ваше имя</label>
+              <input type="text" maxlength="15" id="yourName" placeholder="Введите ваше имя" title="Введите имя">
+            </div>
 
-            <label for="yourEmail" title="Введите email">Ваш Email</label>
-            <input type="email" id="yourEmail" placeholder="Введите вашу почту" title="Введите email">
+            <div>
+              <label for="yourEmail" title="Введите email">Ваш Email</label>
+              <input type="email" id="yourEmail" placeholder="Введите вашу почту" title="Введите email">
+            </div>
 
-            <br>
-            <label for="work">По работе</label>
-            <input type="radio" name="work" id="work" checked></input>
-            <label for="work2">Другое</label>
-            <input type="radio" name="work" id="work2"></input>
+            <div>
+              <label for="work">По работе</label>
+              <input type="radio" name="work" id="work" checked></input>
+              |
+              <label for="work2">Другое</label>
+              <input type="radio" name="work" id="work2"></input>
+            </div>
 
-            <br>
-
-            <label for="yourMsg" title="Введите сообщение">Ваше сообщение</label>
-            <br>
-            <textarea title="Введите сообщение" rows="3" placeholder="Введите..." id="yourMsg"></textarea>
-
-            <br>
+            <div>
+              <label for="yourMsg" title="Введите сообщение">Ваше сообщение</label>
+              <br>
+              <textarea title="Введите сообщение" rows="3" placeholder="Введите..." id="yourMsg"></textarea>
+            </div>
 
             <button type="submit">Отправить</button>
           </form>

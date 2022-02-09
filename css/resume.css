@@ -33,11 +33,14 @@ a:active {
   color: gray;
 }*/
 
-.img121 {
+.photos {
   width: 250px;
   border-radius: 27px;
   box-shadow: 6px 8px 20px 0px rgba(0, 0, 0, 0.5);
+}
 
+#p131 {
+  width: 60%;
 }
 
 .block1 p {
@@ -60,8 +63,8 @@ a:active {
 }
 
 .card {
-  padding: 10px 20px;
-  margin-bottom: 20px;
+  padding: 5px 20px 30px 50px;
+  margin-bottom: 0px;
   border-radius: 20px;
 }
 
@@ -76,6 +79,43 @@ a:active {
 .bg-C7FFD6 {
   background: #C7FFD6
 }
+
+
+.container hr {
+  margin: 15px 50px;
+}
+
+.hobby {
+  margin-bottom:auto;
+  /* padding-left: 50px; */
+}
+
+.hobby li {
+  color: #040026;
+  margin-bottom: 5px;
+}
+
+.exp {
+  width: 100%;
+}
+
+.exp td {
+  padding-bottom: 5px;
+  padding-right: 30px;
+}
+
+.exp td:nth-child(2) {
+  color: #4F5358;
+}
+
+.contact form {
+  padding: 10px 10px 10px 10px;
+}
+
+/* .exp tr:nth-child(even) {
+  background: #F7F7FD;
+} */
+
 
 
 /* Box model */
