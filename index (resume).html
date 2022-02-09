@@ -86,34 +86,34 @@
       <hr>
 
       <div class="card bg-C7FFD6 contact">
-        <h2>Связаться со мной (не реализовано)</h2>
+        <h4>Связаться со мной (не реализовано)</h4>
           <form>
 
-            <div>
-              <label for="yourName" title="Введите имя">Ваше имя</label>
+            <div class="formContact">
+              <label for="yourName" title="Введите имя">Ваше имя:</label>
               <input type="text" maxlength="15" id="yourName" placeholder="Введите ваше имя" title="Введите имя">
             </div>
 
-            <div>
-              <label for="yourEmail" title="Введите email">Ваш Email</label>
-              <input type="email" id="yourEmail" placeholder="Введите вашу почту" title="Введите email">
+            <div class="formContact">
+              <label for="yourEmail" title="Введите email">Ваш Email:</label>
+              <input type="email" id="yourEmail" placeholder="Введите вашу почту">
             </div>
 
-            <div>
+            <div class="formRB">
               <label for="work">По работе</label>
               <input type="radio" name="work" id="work" checked></input>
-              |
+
               <label for="work2">Другое</label>
               <input type="radio" name="work" id="work2"></input>
             </div>
 
-            <div>
-              <label for="yourMsg" title="Введите сообщение">Ваше сообщение</label>
-              <br>
-              <textarea title="Введите сообщение" rows="3" placeholder="Введите..." id="yourMsg"></textarea>
+            <div class="formContact">
+              <label for="yourMsg" title="Введите сообщение">Ваше сообщение:</label>
+              <textarea title="Введите сообщение" rows="2" placeholder="Введите текст" id="yourMsg"></textarea>
             </div>
-
-            <button type="submit">Отправить</button>
+            <div class="sendButton">
+              <button type="submit">Отправить</button>
+            </div>
           </form>
         </div>
         <!-- <div class="box-model">
@@ -126,12 +126,10 @@
         <div style="margin-bottom: 500px;">
         </div> -->
 
-        <br>
-
-        <div class="card">
+        <div class="card bg-FFFCC3 contactMail">
         <details>
           <summary>Еще вариант связи (указан неверный email)</summary>
-          <a href="mailto:test@ya.ru" title="Перекинет на ваш почтовый клиент">Написать на почту</a>
+          <a href="mailto:test@ya.ru" title="Перекинет на ваш почтовый клиент">Написать на электронную почту<img src="Image/141.png" id="p141"></a>
         </details>
       </div>
 
