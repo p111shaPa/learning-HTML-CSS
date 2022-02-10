@@ -15,11 +15,14 @@
     <div class="container">
       <h2 title="это страница для обучения HTML и CSS">Краткое резюме:</h2>
       <div class="block1">
-        <img src="Image/121.jpeg" alt="здесь должно быть фото" title="фото" class="photos" id="img121">
-        <h1> Павел Цыпандин </h1>
-        <p>Мужчина, 30 лет</p>
-        <p id="expInTs">Опыт в технической поддержке и другое</p>
-
+        <div class="block1-1"> <!-- сделано чтобы не включать в display flex ссылки -->
+          <img src="Image/121.jpeg" alt="здесь должно быть фото" title="фото" class="photos" id="img121">
+        <div class="block1-2">
+          <h1> Павел Цыпандин </h1>
+          <p>Мужчина, 30 лет</p>
+          <p id="expInTs">Опыт в технической поддержке и другое</p>
+        </div>
+        </div>
       <h4>Ссылки:</h4>
         <a href="https://github.com/p111shaPa/learning-HTML-CSS" target="_blank" title="можно нажать">
                             Git, ветка learning-HTML-CSS
@@ -88,7 +91,7 @@
       <div class="card bg-C7FFD6 contact">
         <h4>Связаться со мной (не реализовано)</h4>
           <form>
-
+            <div class="row">
             <div class="formContact">
               <label for="yourName" title="Введите имя">Ваше имя:</label>
               <input type="text" maxlength="15" id="yourName" placeholder="Введите ваше имя" title="Введите имя">
@@ -97,6 +100,7 @@
             <div class="formContact">
               <label for="yourEmail" title="Введите email">Ваш Email:</label>
               <input type="email" id="yourEmail" placeholder="Введите вашу почту">
+            </div>
             </div>
 
             <div class="formRB">
@@ -112,7 +116,7 @@
               <textarea title="Введите сообщение" rows="2" placeholder="Введите текст" id="yourMsg"></textarea>
             </div>
             <div class="sendButton">
-              <button type="submit">Отправить</button>
+              <button type="submit" class="sendButton1-1">Отправить</button>
             </div>
           </form>
         </div>
