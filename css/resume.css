@@ -245,3 +245,45 @@ a:visited {
   border: 5px solid green;
   box-sizing: border-box;
 } */
+
+/* Position */
+
+/* .position {
+  border: 4px solid #000;
+  margin-top: 20px;
+  padding: 15px;
+  position: relative;
+  height: 400px;
+} */
+
+.box {
+  width: 9%;
+  height: 96%;
+  /* background: #F0F6FF; */
+  position: fixed;
+  /* top: 200px; */
+  /* left: 20px; */
+  /* bottom: 0px; */
+  right: 0.7%;
+  top: 0;
+  /* left: 100;*/
+  margin: 1% 0% 1% 10%;
+  border-radius: 20px;
+  /* border: none; */
+  cursor: pointer;
+  text-align: center;
+  padding-top: 35%;
+  font-family: inherit;
+}
+
+.box:active {
+  /* color: #f99 */
+  opacity: 0.54;
+  }
+
+.box a {
+ text-decoration: none;
+ color: #f88;
+ font-size: 15px;
+ opacity: 40%;
+}
