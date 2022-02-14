@@ -61,6 +61,17 @@ a:visited {
   display: flex;
 }
 
+@media (max-width: 800px) {
+    .block1-1 {
+      display: block;
+      text-align: center;
+    }
+
+    .box {
+      display: none;
+    }
+}
+
 .block1-2 {
   margin-left: 50px;
 }
