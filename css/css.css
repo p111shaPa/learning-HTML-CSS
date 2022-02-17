@@ -1,8 +1,18 @@
 .av1 {
-  width: 27rem;
+  width: 25rem;
   border-radius: 50%;
   border: 1px solid #ccc;
   box-shadow: 3px 2px 20px -1px rgba(0, 128, 128, 0.3);
   padding: 0.2em;
   margin-bottom: 0.5rem;
+}
+
+.navBg {
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  /* height: 2.5rem; */
+}
+
+.p111 {
+  width: 70px;
 }

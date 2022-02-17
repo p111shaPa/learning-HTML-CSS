@@ -1,45 +1,93 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <meta name="author" content="Pavel">
-    <meta name="description" content="resume">
-    <meta name="keywords" content="резюме, удаленная работа">
-
+    <meta charset="utf-8" />
+    <meta name="author" content="Pavel" />
+    <meta name="description" content="resume" />
+    <meta name="keywords" content="резюме, удаленная работа" />
     <title>Краткое резюме</title>
-    <link href="image/121_favicon.png" rel="icon">
-    <link rel="stylesheet" href="css/resume.css">
 
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/css.css" rel="stylesheet" />
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <link href="image/121_favicon.png" rel="icon" />
+    <!-- <link rel="stylesheet" href="css/resume.css" /> -->
   </head>
   <body>
+    <nav class="navbar navbar-expand-lg navbar-light navBg p-1">
+      <div class="container">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarText"
+          aria-controls="navbarText"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <a class="navbar-brand p-0" href="/">
+          <img src="img/p111v2.gif" class="p111" />
+        </a>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="/">Главная</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="index (resume previous).html"
+                >Подробнее
+              </a>
+            </li>
+          </ul>
+          <!-- <span class="navbar-text">
+            Second resume
+          </span> -->
+        </div>
+      </div>
+    </nav>
+
     <div class="container">
-      <h2 title="это страница для обучения HTML и CSS">Краткое резюме:
+      <h2 title="это страница для обучения HTML и CSS">
+        Краткое резюме:
         <!-- <a name="pageUp"></a> -->
       </h2>
       <div class="block1">
-        <div class="block1-1"> <!-- сделано чтобы не включать в display flex ссылки -->
-          <img src="Image/121.jpeg" alt="здесь должно быть фото" title="фото" class="photos" id="img121">
-        <div class="block1-2">
-          <h1> Павел Цыпандин </h1>
-          <p>Мужчина, 30 лет</p>
-          <p id="expInTs">Опыт в технической поддержке и другое</p>
+        <div class="block1-1">
+          <!-- сделано чтобы не включать в display flex ссылки -->
+          <img
+            src="Image/121.jpeg"
+            alt="здесь должно быть фото"
+            title="фото"
+            class="photos"
+            id="img121"
+          />
+          <div class="block1-2">
+            <h1>Павел Цыпандин</h1>
+            <p>Мужчина, 30 лет</p>
+            <p id="expInTs">Опыт в технической поддержке и другое</p>
+          </div>
         </div>
-        </div>
-      <h4>Ссылки:</h4>
-        <a href="https://github.com/p111shaPa/learning-HTML-CSS" target="_blank" title="можно нажать">
-                            Git, ветка learning-HTML-CSS
+        <h4>Ссылки:</h4>
+        <a
+          href="https://github.com/p111shaPa/learning-HTML-CSS"
+          target="_blank"
+          title="можно нажать"
+        >
+          Git, ветка learning-HTML-CSS
         </a>
         &nbsp|
         <a href="2file.html" target="_blank" title="можно нажать">
-                      Открытие др. страницы (локальной)
+          Открытие др. страницы (локальной)
         </a>
       </div>
 
-
-
       <div class="card bg-Lavender">
         <h2>Опыт работы</h2>
-          <table class="exp">
+        <table class="exp">
           <thead>
             <tr>
               <th><i>место (начиная с последнего)</i></th>
@@ -56,73 +104,92 @@
               <td>Специалист технической поддержки (1л, потом ВУ)</td>
             </tr>
             <tr>
-                <td>"Хэндз"</td>
-                <td>Cубподряд, клининг банкоматов, не сложная настройка установка POS-терминалов</td>
+              <td>"Хэндз"</td>
+              <td>
+                Cубподряд, клининг банкоматов, не сложная настройка установка
+                POS-терминалов
+              </td>
             </tr>
             <tr>
-                <td>Почта России</td>
-                <td>Инженер программист 1 категории (как сисадмин)</td>
+              <td>Почта России</td>
+              <td>Инженер программист 1 категории (как сисадмин)</td>
             </tr>
             <tr>
-                <td>Связной</td>
-                <td>менеджер по продажам</td>
+              <td>Связной</td>
+              <td>менеджер по продажам</td>
             </tr>
             <tr>
-                <td>И др.</td>
+              <td>И др.</td>
             </tr>
           </tbody>
-          </table>
-        </div>
-        <hr>
+        </table>
+      </div>
+      <hr />
 
-
-        <div class="card bg-FloralWhite">
-          <h2>Увлечения</h2>
-            <table>
-              <tbody>
-                  <ul class="hobby" type="circle">
-                      <li>Езда на велосипеде</li>
-                      <li>Игра на фортепиано</li>
-                      <li>Путешествия</li>
-                  </ul>
-              </tbody>
-            </table>
-        </div>
-      <hr>
+      <div class="card bg-FloralWhite">
+        <h2>Увлечения</h2>
+        <table>
+          <tbody>
+            <ul class="hobby" type="circle">
+              <li>Езда на велосипеде</li>
+              <li>Игра на фортепиано</li>
+              <li>Путешествия</li>
+            </ul>
+          </tbody>
+        </table>
+      </div>
+      <hr />
 
       <div class="card bg-C7FFD6 contact">
         <h4>Связаться со мной (не реализовано)</h4>
-          <form>
-            <div class="row">
+        <form>
+          <div class="row">
             <div class="formContact">
               <label for="yourName" title="Введите имя">Ваше имя:</label>
-              <input type="text" maxlength="15" id="yourName" placeholder="Введите ваше имя" title="Введите имя">
+              <input
+                type="text"
+                maxlength="15"
+                id="yourName"
+                placeholder="Введите ваше имя"
+                title="Введите имя"
+              />
             </div>
 
             <div class="formContact">
               <label for="yourEmail" title="Введите email">Ваш Email:</label>
-              <input type="email" id="yourEmail" placeholder="Введите вашу почту">
+              <input
+                type="email"
+                id="yourEmail"
+                placeholder="Введите вашу почту"
+              />
             </div>
-            </div>
+          </div>
 
-            <div class="formRB">
-              <label for="work">По работе</label>
-              <input type="radio" name="work" id="work" checked></input>
+          <div class="formRB">
+            <label for="work">По работе</label>
+            <input type="radio" name="work" id="work" checked />
 
-              <label for="work2">Другое</label>
-              <input type="radio" name="work" id="work2"></input>
-            </div>
+            <label for="work2">Другое</label>
+            <input type="radio" name="work" id="work2" />
+          </div>
 
-            <div class="formContact">
-              <label for="yourMsg" title="Введите сообщение">Ваше сообщение:</label>
-              <textarea title="Введите сообщение" rows="2" placeholder="Введите текст" id="yourMsg"></textarea>
-            </div>
-            <div class="sendButton">
-              <button type="submit" class="sendButton1-1">Отправить</button>
-            </div>
-          </form>
-        </div>
-        <!-- <div class="box-model">
+          <div class="formContact">
+            <label for="yourMsg" title="Введите сообщение"
+              >Ваше сообщение:</label
+            >
+            <textarea
+              title="Введите сообщение"
+              rows="2"
+              placeholder="Введите текст"
+              id="yourMsg"
+            ></textarea>
+          </div>
+          <div class="sendButton">
+            <button type="submit" class="sendButton1-1">Отправить</button>
+          </div>
+        </form>
+      </div>
+      <!-- <div class="box-model">
           <div></div>
           <div></div>
           <div></div>
@@ -132,17 +199,19 @@
         <div style="margin-bottom: 500px;">
         </div> -->
 
-        <div class="card bg-FFFCC3 contactMail">
+      <div class="card bg-FFFCC3 contactMail">
         <details>
           <summary>Еще вариант связи (указан неверный email)</summary>
-          <a href="mailto:test@ya.ru" title="Перекинет на ваш почтовый клиент">Написать на электронную почту<img src="Image/141.png" id="p141"></a>
+          <a href="mailto:test@ya.ru" title="Перекинет на ваш почтовый клиент"
+            >Написать на электронную почту<img src="Image/141.png" id="p141"
+          /></a>
         </details>
       </div>
 
       <!-- <div class="position"> -->
-          <div class="box">
-              <a href="#" class="box">Вверх</a>
-          </div>
+      <div class="box">
+        <a href="#" class="box">Вверх</a>
+      </div>
       <!-- </div> -->
 
       <div style="margin-bottom: 50px"></div>
