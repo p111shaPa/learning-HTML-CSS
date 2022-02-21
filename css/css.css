@@ -1,5 +1,5 @@
 .av1 {
-  width: 25rem;
+  width: 73%;
   border-radius: 50%;
   border: 1px solid #ccc;
   box-shadow: 3px 2px 20px -1px rgba(0, 128, 128, 0.3);
@@ -15,4 +15,40 @@
 
 .p111 {
   width: 70px;
+}
+
+.av1-2 {
+  width: 250px;
+  border-radius: 27px;
+  box-shadow: 6px 8px 20px 0px rgba(0, 0, 0, 0.5);
+  padding: 0.1em;
+}
+
+.h2 {
+  margin-bottom: 1rem;
+}
+
+/* .cardSize {
+  width: auto;
+  min-width: 15rem;
+  max-width: 25rem;
+} */
+
+.card {
+  background-color: #eeeeee;
+  /* text-align: center; */
+  border-radius: 0.6em;
+}
+
+.card:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.card h5 {
+  text-align: center;
+}
+
+.card img {
+  /* padding: 0.1em; */
+  border-radius: 0.5em 0.5em 0em 0em;
 }

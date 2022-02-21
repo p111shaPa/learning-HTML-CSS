@@ -1,18 +1,40 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="utf-8" />
     <meta name="author" content="Pavel" />
     <meta name="description" content="resume" />
     <meta name="keywords" content="резюме, удаленная работа" />
     <title>Краткое резюме</title>
 
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="img/logo/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="img/logo/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="img/logo/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="img/logo/favicon/site.webmanifest" />
+
     <link href="css/bootstrap.min.css" rel="stylesheet" />
     <link href="css/css.css" rel="stylesheet" />
     <script src="js/bootstrap.bundle.min.js"></script>
 
-    <link href="image/121_favicon.png" rel="icon" />
+    <!-- <link href="image/121_favicon.png" rel="icon" /> -->
     <!-- <link rel="stylesheet" href="css/resume.css" /> -->
+
+    <style></style>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light navBg p-1">
@@ -30,7 +52,7 @@
         </button>
 
         <a class="navbar-brand p-0" href="/">
-          <img src="img/p111v2.gif" class="p111" />
+          <img src="img/logo/p111v3.gif" class="p111" alt="logo" />
         </a>
         <div class="collapse navbar-collapse" id="navbarText">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -50,145 +72,184 @@
       </div>
     </nav>
 
-    <div class="container">
-      <h2 title="это страница для обучения HTML и CSS">
+    <div class="container my-3">
+      <h2
+        title="это страница для обучения HTML и CSS"
+        class="d-none d-lg-block"
+      >
         Краткое резюме:
         <!-- <a name="pageUp"></a> -->
       </h2>
-      <div class="block1">
-        <div class="block1-1">
-          <!-- сделано чтобы не включать в display flex ссылки -->
+      <div class="d-sm-flex">
+        <div class="text-center">
           <img
-            src="Image/121.jpeg"
+            src="img/av1.jpg"
             alt="здесь должно быть фото"
             title="фото"
-            class="photos"
-            id="img121"
+            class="av1-2 my-4 mx-4"
+            id="img_av1-2"
           />
-          <div class="block1-2">
-            <h1>Павел Цыпандин</h1>
-            <p>Мужчина, 30 лет</p>
-            <p id="expInTs">Опыт в технической поддержке и другое</p>
+        </div>
+        <div class="my-5 mx-4  text-center text-sm-start">
+          <h1>Павел Цыпандин</h1>
+          <!-- сменить с h1 на текст-->
+          <p>Мужчина, 30 лет</p>
+          <p id="expInTs">Опыт в технической поддержке и другое</p>
+        </div>
+      </div>
+
+      <!-- <h4>Ссылки:</h4>
+      <a
+        href="https://github.com/p111shaPa/learning-HTML-CSS"
+        target="_blank"
+        title="можно нажать"
+      >
+        Git, ветка learning-HTML-CSS
+      </a>
+      &nbsp|
+      <a href="2file.html" target="_blank" title="можно нажать">
+        Открытие др. страницы (локальной)
+      </a> -->
+
+      <h2 class="mx-2 my-4 text-center text-md-start">Опыт работы</h2>
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
+        <div class="col">
+          <div class="card p-0">
+            <img src="img/gray.png" class="card-img-top " alt="без фото" />
+            <div class="card-body">
+              <h5 class="card-title">ООО "Лоджик Лайн"</h5>
+              <p class="card-text">
+                Оператор технической поддержки
+              </p>
+              <!-- <a href="#" class="btn btn-primary">Перейти?</a> -->
+            </div>
           </div>
         </div>
-        <h4>Ссылки:</h4>
-        <a
-          href="https://github.com/p111shaPa/learning-HTML-CSS"
-          target="_blank"
-          title="можно нажать"
-        >
-          Git, ветка learning-HTML-CSS
-        </a>
-        &nbsp|
-        <a href="2file.html" target="_blank" title="можно нажать">
-          Открытие др. страницы (локальной)
-        </a>
-      </div>
-
-      <div class="card bg-Lavender">
-        <h2>Опыт работы</h2>
-        <table class="exp">
-          <thead>
-            <tr>
-              <th><i>место (начиная с последнего)</i></th>
-              <th><i>должность</i></th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>ООО "...... ...."</td>
-              <td>Оператор технической поддержки</td>
-            </tr>
-            <tr>
-              <td>онлайн-школа английского языка</td>
-              <td>Специалист технической поддержки (1л, потом ВУ)</td>
-            </tr>
-            <tr>
-              <td>"Хэндз"</td>
-              <td>
+        <div class="col">
+          <div class="card p-0">
+            <img src="img/eng.jpg" class="card-img-top" alt="фото" />
+            <div class="card-body">
+              <h5 class="card-title">Skyeng</h5>
+              <p class="card-text">
+                Специалист технической поддержки 1 линия, потом Вводных уроков
+              </p>
+              <!-- <a href="#" class="btn btn-primary">Перейти?</a> -->
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card p-0">
+            <img src="img/hendz.jpg" class="card-img-top" alt="фото" />
+            <div class="card-body">
+              <h5 class="card-title">Хэндз</h5>
+              <p class="card-text">
                 Cубподряд, клининг банкоматов, не сложная настройка установка
                 POS-терминалов
-              </td>
-            </tr>
-            <tr>
-              <td>Почта России</td>
-              <td>Инженер программист 1 категории (как сисадмин)</td>
-            </tr>
-            <tr>
-              <td>Связной</td>
-              <td>менеджер по продажам</td>
-            </tr>
-            <tr>
-              <td>И др.</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-      <hr />
-
-      <div class="card bg-FloralWhite">
-        <h2>Увлечения</h2>
-        <table>
-          <tbody>
-            <ul class="hobby" type="circle">
-              <li>Езда на велосипеде</li>
-              <li>Игра на фортепиано</li>
-              <li>Путешествия</li>
-            </ul>
-          </tbody>
-        </table>
-      </div>
-      <hr />
-
-      <div class="card bg-C7FFD6 contact">
-        <h4>Связаться со мной (не реализовано)</h4>
-        <form>
-          <div class="row">
-            <div class="formContact">
-              <label for="yourName" title="Введите имя">Ваше имя:</label>
-              <input
-                type="text"
-                maxlength="15"
-                id="yourName"
-                placeholder="Введите ваше имя"
-                title="Введите имя"
-              />
-            </div>
-
-            <div class="formContact">
-              <label for="yourEmail" title="Введите email">Ваш Email:</label>
-              <input
-                type="email"
-                id="yourEmail"
-                placeholder="Введите вашу почту"
-              />
+              </p>
+              <!-- <a href="#" class="btn btn-primary">Перейти?</a> -->
             </div>
           </div>
-
-          <div class="formRB">
-            <label for="work">По работе</label>
-            <input type="radio" name="work" id="work" checked />
-
-            <label for="work2">Другое</label>
-            <input type="radio" name="work" id="work2" />
+        </div>
+        <div class="col">
+          <div class="card p-0">
+            <img src="img/post.jpg" class="card-img-top" alt="фото" />
+            <div class="card-body">
+              <h5 class="card-title">Почта России</h5>
+              <p class="card-text">
+                Инженер программист 1 категории (как сисадмин)
+              </p>
+              <!-- <a href="#" class="btn btn-primary">Перейти?</a> -->
+            </div>
           </div>
-
-          <div class="formContact">
-            <label for="yourMsg" title="Введите сообщение"
-              >Ваше сообщение:</label
-            >
-            <textarea
-              title="Введите сообщение"
-              rows="2"
-              placeholder="Введите текст"
-              id="yourMsg"
-            ></textarea>
-          </div>
-          <div class="sendButton">
-            <button type="submit" class="sendButton1-1">Отправить</button>
-          </div>
-        </form>
+        </div>
       </div>
+
+      <h4 class="mx-2 my-4 text-center text-md-start">
+        Показано начиная с последнего. И др.
+      </h4>
+      <!-- <table class="exp">
+        <thead>
+          <tr>
+            <th><i>место (начиная с последнего)</i></th>
+            <th><i>должность</i></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>ООО "...... ...."</td>
+            <td>Оператор технической поддержки</td>
+          </tr>
+          <tr>
+            <td>онлайн-школа английского языка</td>
+            <td>Специалист технической поддержки (1л, потом ВУ)</td>
+          </tr>
+          <tr>
+            <td>"Хэндз"</td>
+            <td>
+              Cубподряд, клининг банкоматов, не сложная настройка установка
+              POS-терминалов
+            </td>
+          </tr>
+          <tr>
+            <td>Почта России</td>
+            <td>Инженер программист 1 категории (как сисадмин)</td>
+          </tr>
+          <tr>
+            <td>Связной</td>
+            <td>менеджер по продажам</td>
+          </tr>
+          <tr>
+            <td>И др.</td>
+          </tr>
+        </tbody>
+      </table> -->
+
+      <hr />
+
+      <h2>Увлечения</h2>
+      <table>
+        <tbody>
+          <ul class="hobby" type="circle">
+            <li>Езда на велосипеде</li>
+            <li>Игра на фортепиано</li>
+            <li>Путешествия</li>
+          </ul>
+        </tbody>
+      </table>
+
+      <hr />
+
+      <h4>Связаться со мной (не реализовано)</h4>
+      <form>
+        <label for="yourName" title="Введите имя">Ваше имя:</label>
+        <input
+          type="text"
+          maxlength="15"
+          id="yourName"
+          placeholder="Введите ваше имя"
+          title="Введите имя"
+        />
+
+        <label for="yourEmail" title="Введите email">Ваш Email:</label>
+        <input type="email" id="yourEmail" placeholder="Введите вашу почту" />
+
+        <label for="work">По работе</label>
+        <input type="radio" name="work" id="work" checked />
+
+        <label for="work2">Другое</label>
+        <input type="radio" name="work" id="work2" />
+
+        <label for="yourMsg" title="Введите сообщение">Ваше сообщение:</label>
+        <textarea
+          title="Введите сообщение"
+          rows="2"
+          placeholder="Введите текст"
+          id="yourMsg"
+        ></textarea>
+
+        <button type="submit" class="sendButton1-1">Отправить</button>
+      </form>
+
       <!-- <div class="box-model">
           <div></div>
           <div></div>
@@ -199,22 +260,14 @@
         <div style="margin-bottom: 500px;">
         </div> -->
 
-      <div class="card bg-FFFCC3 contactMail">
-        <details>
-          <summary>Еще вариант связи (указан неверный email)</summary>
-          <a href="mailto:test@ya.ru" title="Перекинет на ваш почтовый клиент"
-            >Написать на электронную почту<img src="Image/141.png" id="p141"
-          /></a>
-        </details>
-      </div>
+      <details>
+        <summary>Еще вариант связи (указан неверный email)</summary>
+        <a href="mailto:test@ya.ru" title="Перекинет на ваш почтовый клиент"
+          >Написать на электронную почту<img src="Image/141.png" id="p141"
+        /></a>
+      </details>
 
-      <!-- <div class="position"> -->
-      <div class="box">
-        <a href="#" class="box">Вверх</a>
-      </div>
-      <!-- </div> -->
-
-      <div style="margin-bottom: 50px"></div>
+      <a href="#" class="box">Вверх</a>
     </div>
   </body>
 </html>
