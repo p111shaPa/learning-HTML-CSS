@@ -52,3 +52,8 @@
   /* padding: 0.1em; */
   border-radius: 0.5em 0.5em 0em 0em;
 }
+
+#expInTs {
+  /* font-weight: bold; */
+  font-size: 1.1em;
+}
