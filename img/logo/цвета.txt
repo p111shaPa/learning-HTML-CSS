@@ -1,5 +1,0 @@
-1 #5e6f7b
-2 #83b5b7
-3 #96b0c7
-4 #babdbf
-RGB
