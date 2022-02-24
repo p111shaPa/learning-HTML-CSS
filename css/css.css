@@ -1,3 +1,8 @@
+.container {
+  /*перебросил класс наверх */
+  max-width: 55em;
+}
+
 .av1 {
   width: 73%;
   border-radius: 50%;
@@ -18,14 +23,18 @@
 }
 
 .av1-2 {
-  width: 250px;
-  border-radius: 27px;
+  width: 14em;
+  border-radius: 1em;
   box-shadow: 6px 8px 20px 0px rgba(0, 0, 0, 0.5);
   padding: 0.1em;
 }
 
 .h2 {
-  margin-bottom: 1rem;
+  margin: 0.6em 0em 1.5em;
+}
+
+.underName {
+  margin-left: 0.14em;
 }
 
 /* .cardSize {
@@ -56,4 +65,23 @@
 #expInTs {
   /* font-weight: bold; */
   font-size: 1.1em;
+}
+
+.cntctSize {
+  width: 26px;
+  height: 26px;
+}
+
+.cntctColor {
+  color: green;
+  border-color: #2f7f37;
+}
+
+.btn-outline-secondary:hover {
+  background-color: #43b74f;
+  border-color: #43b74f;
+}
+
+.btn-outline-primary:hover {
+  background-color: #3568ff;
 }

@@ -31,9 +31,6 @@
     <link href="css/css.css" rel="stylesheet" />
     <script src="js/bootstrap.bundle.min.js"></script>
 
-    <!-- <link href="image/121_favicon.png" rel="icon" /> -->
-    <!-- <link rel="stylesheet" href="css/resume.css" /> -->
-
     <style></style>
   </head>
   <body>
@@ -65,9 +62,6 @@
               </a>
             </li>
           </ul>
-          <!-- <span class="navbar-text">
-            Second resume
-          </span> -->
         </div>
       </div>
     </nav>
@@ -75,10 +69,9 @@
     <div class="container my-3">
       <h2
         title="это страница для обучения HTML и CSS"
-        class="d-none d-lg-block"
+        class="d-none d-lg-block h2 mx-2 mt-0"
       >
         Краткое резюме:
-        <!-- <a name="pageUp"></a> -->
       </h2>
       <div class="d-sm-flex">
         <div class="text-center">
@@ -86,34 +79,23 @@
             src="img/av1.jpg"
             alt="фото"
             title="фото"
-            class="av1-2 my-4 mx-4"
-            id="img_av1-2"
+            class="av1-2 my-0 mx-4"
           />
         </div>
-        <div class="my-5 mx-4  text-center text-sm-start">
-          <h1>Павел Цыпандин</h1>
-          <!-- сменить с h1 на текст-->
-          <p>Мужчина, 30 лет</p>
-          <p id="expInTs" class="text-muted">
+        <div class="my-1 mx-4 text-center text-sm-start">
+          <p class="fs-1">Павел Цыпандин</p>
+
+          <p class="underName">Мужчина, 30 лет</p>
+          <p id="expInTs" class="text-muted underName">
             Опыт в технической поддержке и другое
           </p>
         </div>
       </div>
 
-      <!-- <h4>Ссылки:</h4>
-      <a
-        href="https://github.com/p111shaPa/learning-HTML-CSS"
-        target="_blank"
-        title="можно нажать"
-      >
-        Git, ветка learning-HTML-CSS
-      </a>
-      &nbsp|
-      <a href="2file.html" target="_blank" title="можно нажать">
-        Открытие др. страницы (локальной)
-      </a> -->
-
-      <h2 class="mx-2 my-4 text-center text-md-start">Опыт работы</h2>
+      <h2 class="mx-2 text-center text-md-start h2 mt-5 mb-0">Опыт работы</h2>
+      <p class="fs-6 text-muted mx-2 text-center text-md-start mb-5">
+        Сначала с последнего места
+      </p>
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
         <div class="col">
           <div class="card p-0">
@@ -166,13 +148,13 @@
         </div>
       </div>
 
-      <h4 class="mx-2 my-4 text-center text-md-start">
-        (Показано начиная с последнего.) И др.
+      <h4 class="mx-2 mt-4 text-center text-md-start">
+        И др.
       </h4>
 
-      <hr />
+      <hr class="mt-5" />
 
-      <h2>Увлечения</h2>
+      <h2 class="h2 mx-2">Увлечения</h2>
 
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
         <div class="col">
@@ -204,57 +186,57 @@
         </div>
       </div>
 
-      <hr />
+      <hr class="mt-5" />
 
-      <h4>Связаться со мной (не реализовано)</h4>
-      <form>
-        <label for="yourName" title="Введите имя">Ваше имя:</label>
-        <input
-          type="text"
-          maxlength="15"
-          id="yourName"
-          placeholder="Введите ваше имя"
-          title="Введите имя"
-        />
+      <h2 class="h2 mx-2">Связаться со мной</h2>
 
-        <label for="yourEmail" title="Введите email">Ваш Email:</label>
-        <input type="email" id="yourEmail" placeholder="Введите вашу почту" />
-
-        <label for="work">По работе</label>
-        <input type="radio" name="work" id="work" checked />
-
-        <label for="work2">Другое</label>
-        <input type="radio" name="work" id="work2" />
-
-        <label for="yourMsg" title="Введите сообщение">Ваше сообщение:</label>
-        <textarea
-          title="Введите сообщение"
-          rows="2"
-          placeholder="Введите текст"
-          id="yourMsg"
-        ></textarea>
-
-        <button type="submit" class="sendButton1-1">Отправить</button>
-      </form>
-
-      <!-- <div class="box-model">
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-4 g-4">
+        <div>
+          <a
+            class="btn btn-outline-primary"
+            style="width: 100%;"
+            href="https://t.me/p111shaPa"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="currentColor"
+              class="bi bi-telegram cntctSize"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315.337.337 0 0 0-.114-.217.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z"
+              />
+            </svg>
+            Telegram
+          </a>
         </div>
 
-        <div style="margin-bottom: 500px;">
-        </div> -->
+        <div>
+          <a
+            class="btn btn-outline-secondary cntctColor"
+            style="width: 100%;"
+            href="mailto:p1112009@yandex.ru"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="currentColor"
+              class="bi bi-envelope cntctSize"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"
+              />
+            </svg>
+            eMail
+          </a>
+        </div>
+      </div>
 
-      <details>
-        <summary>Еще вариант связи (указан неверный email)</summary>
-        <a href="mailto:test@ya.ru" title="Перекинет на ваш почтовый клиент"
-          >Написать на электронную почту<img src="Image/141.png" id="p141"
-        /></a>
-      </details>
+      <!-- <a href="#" class="box">Вверх</a> -->
 
-      <a href="#" class="box">Вверх</a>
+      <hr class="mt-5" />
+      <div style="margin-bottom: 3em;"></div>
+      <p class="text-muted text-center"><small>p111, 2022</small></p>
     </div>
   </body>
 </html>
